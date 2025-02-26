@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style/style.css">
+    <title data-n-head="true">Luxury Auto Gallery</title>
+    <meta name="description" content="Sale of luxury cars from manufacturers. Lamborghini - only high-quality cars." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="./images/favicon/favicon.ico" type="image/x-icon" sizes="64x64">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <div class="header">
+                <div class="logo"><a href=""><img src="./images/logo_LAG.webp"></a></div>
+                <div class="menu">
+                    <a href="./index.html">Price list</a>
+                    <a href="./index.html">Salons</a>
+                    <a href="./index.html">Service</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="content_list1">
+                <div class="content_list1_left">
+                    <div class="up_text">
+                        <h1>Lamborghini.</h1>
+                        <p>Start your journey into the world of luxury today!</p>
+                    </div>
+                    <div class="down_text">
+                        <h3></h3>
+                        <div class="down_text_list">
+                            <div class="list_img"><img src="./images/icon_brand.webp"></div>
+                            <p>from <span>€ 200 000</span></p>
+                        </div>
+                        <div class="down_text_list">
+                            <div class="list_img"><img src="./images/icon_brand.webp"></div>
+                            <p>Installments of up to<span>36</span>months</p>
+                        </div>
+                        <div class="down_text_list">
+                            <div class="list_img"><img src="./images/icon_brand.webp"></div>
+                            <p>Luxury cars from the manufacturer</p>
+                        </div>
+                        <a href="./index.html"><button class="contact_btn">CONTACT</button></a>
+                    </div>
+                </div>
+                <div class="content_list1_right"><img src="./images/auto_main.webp"></div>
+            </div>
+            <div class="content_list2">
+                <div class="list2_img"><img src="./images/center_auto1.webp"></div>
+                <div class="list2_text">
+                    <div class="text_block">
+                        <div class="text_block_icon"><img src="./images/icon_corona.webp"></div>
+                        <p>Exclusive range: only the most prestigious brands.</p>
+                    </div>
+                    <div class="row"></div>
+                    <div class="text_block">
+                        <div class="text_block_icon"><img src="./images/icon_corona.webp"></div>
+                        <p>Individual approach: choosing a car according to your preferences.</p>
+                    </div>
+                    <div class="row"></div>
+                    <div class="text_block">
+                        <div class="text_block_icon"><img src="./images/icon_corona.webp"></div>
+                        <p>Quality assurance: all vehicles are strictly controlled.</p>
+                    </div>
+                    <div class="row"></div>
+                    <div class="text_block">
+                        <div class="text_block_icon"><img src="./images/icon_corona.webp"></div>
+                        <p>Convenient purchase conditions: installments and profitable loan programs.</p>
+                    </div>
+                    <a href="./index.html"><button class="order_btn">ORDER</button></a>
+                </div>
+                <div class="list2_img"><img src="./images/center_auto2.webp"></div>
+
+            </div>
+            <div class="content_list3">
+
+                <div class="list3">
+
+                    <div class="form">
+                        <h2>Please fill out the form below<br> for consultation.</h2>
+                        <form action="" method="get" id="feedbackForm">
+                            <label>
+                                Name:
+                                <input type="text" id="name" name="name" placeholder="Courteney Cox" required>
+                            </label>
+
+                            <label>
+                                Email:
+                                <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                            </label>
+
+                            <button type="submit">
+                                Send
+                            </button>
+                        </form>
+                    </div>
+                    <div class="promotion_woomen"><img src="./images/woomen.webp" id="img_woomen">
+                        <div class="list3_auto_img"><img src="./images/auto_form.webp"></div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+        <footer>
+            <div class="menu">
+                <a href="./index.html">Price list</a>
+                <a href="./index.html">Salons</a>
+                <a href="./index.html">Service</a>
+            </div>
+            <div class="footer_down">
+                <div class="footer_left">
+                    <div class="footer_logo"><img src="./images/logo_LAG.webp"></div>
+                    <p>© 2025, Copyright.</p>
+                </div>
+                <div class="footer_center">
+                    <div class="social">
+                        <a href="./index.html"> <img src="./images/facebook.webp"></a>
+                        <a href="./index.html"> <img src="./images/in.webp"></a>
+                        <a href="./index.html"> <img src="./images/inst.webp"></a>
+                        <a href="./index.html"> <a href="./index.html"><img src="./images/tg.webp"></a>
+                        <a href="./index.html"> <img src="./images/tiktok.webp"></a>
+                        <a href="./index.html"> <img src="./images/youtube.webp"></a>
+                    </div>
+                    <a href="./index.html">Privacy policy</a>
+                </div>
+                <div class="footer_right">
+                    <a href="./index.html"><button class="contact_btn">ORDER</button></a>
+                    <p>Terms of Use</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        const header = document.querySelector('header');
+        console.log(window)
+        window.addEventListener('scroll', _ => {
+            window.scrollY >= 54 ? header.classList.add('header_scroll') : header.classList.remove('header_scroll');
+        });
+
+
+
+    </script>
+    <script>
+        let nameInput = document.getElementById('name');
+
+        nameInput.addEventListener('invalid', () => {
+            nameInput.setCustomValidity('Fill in this field!');
+        });
+
+        nameInput.addEventListener('input', () => {
+            nameInput.setCustomValidity('');
+        });
+    </script>
+    <script>
+        let emailInput = document.getElementById('email');
+
+        emailInput.addEventListener('invalid', () => {
+            emailInput.setCustomValidity('Specify the correct email address!');
+        });
+
+        emailInput.addEventListener('input', () => {
+            emailInput.setCustomValidity('');
+        });
+    </script>
+    <script>
+        document.getElementById('feedbackForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            alert('The message has been sent!');
+            this.reset();
+        });
+    </script>
+</body>
+
+</html>
