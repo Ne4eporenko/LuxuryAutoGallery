@@ -464,6 +464,7 @@ footer {
     justify-content: center;
     align-items: center;
     width: 100%;
+    padding: 40px 0px;
 }
 
 #feedbackForm {
@@ -473,6 +474,7 @@ footer {
 }
 
 #feedbackForm input {
+    box-sizing: border-box;
     width: 500px;
     height: 50px;
     border: 1px solid #D5C9BE;
@@ -679,7 +681,6 @@ footer .menu {
 
     #feedbackForm {
         align-items: center;
-        margin-bottom: 50px;
     }
 }
 
